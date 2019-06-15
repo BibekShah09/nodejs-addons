@@ -1,23 +1,22 @@
 #include <nan.h>
-#include <iostream>
 
 void bubbleSort(const v8::FunctionCallbackInfo<v8::Value>& args) {
-    std::vector <int> array;
-    int i, j, length = 100000;
+  std::vector <int> array;
+  int i, j, length = 100000;
 
-    for (i = length; i > 0; i--) {
-      array.push_back(i);
-    }
+  for (i = length; i > 0; i--) {
+    array.push_back(i);
+  }
 
-    for (i = 0; i < length; i++){
-      for (j = 0; j <= length - i - 1; j++){
-        if (array[j] > array[j + 1]) {
-            int temp = array[j];
-            array[j] = array[j + 1];
-            array[j + 1] = temp;
-           }
-       }
-    }
+  for (i = 0; i < length; i++){
+   for (j = 0; j <= length - i - 1; j++){
+     if (array[j] > array[j + 1]) {
+       int temp = array[j];
+       array[j] = array[j + 1];
+       array[j + 1] = temp;
+     }
+   }
+  }
 }
 
 // first is export: same as node exports
