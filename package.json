@@ -1,0 +1,24 @@
+{
+  "name": "node-addon",
+  "version": "1.0.0",
+  "description": "Node.js Addons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BibekShah09/node-addons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BibekShah09/node-addons/issues"
+  },
+  "homepage": "https://github.com/BibekShah09/node-addons#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.0"
+  },
+  "gypfile": true
+}
