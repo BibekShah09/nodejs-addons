@@ -2,7 +2,7 @@
   "name": "node-addon",
   "version": "1.0.0",
   "description": "Node.js Addons",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BibekShah09/node-addons#readme",
   "dependencies": {
+    "benchmark": "^2.1.4",
     "bindings": "^1.5.0",
     "nan": "^2.14.0"
   },

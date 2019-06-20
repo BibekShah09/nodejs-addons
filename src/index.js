@@ -1,5 +1,5 @@
 const bubbleSortJs = require('./sort');
-const {bubbleSort} = require('./build/Release/sort');
+const {bubbleSort} = require('../build/Release/sort');
 
 console.time('addon');
 bubbleSort();
